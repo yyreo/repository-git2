@@ -85,7 +85,7 @@
   }
 
   .c-mini__ttl {
-    margin-top: 16px;
+    margin-top: 32px;
   }
 
   .p-sponser {
@@ -100,7 +100,7 @@
   }
 
   .p-article__newslist:not(:first-child)  {
-    padding-top: 8px;
+    padding-top: 16px;
   }
 
   .p-article__news > h1 {
@@ -115,7 +115,7 @@
   .c-main__ttl > h1 {
     color: #fff;
     line-height: 70px;
-    padding-left: 16px;
+    padding-left: 32px;
   }
 
   .p-article__rightlist > a {
@@ -148,9 +148,9 @@
   }
 
   .c-mini__rightttl {
-    margin-top: 16px;
+    margin-top: 32px;
     border-bottom: 1px dashed #C0C0C0;
-    padding-bottom: 24px;
+    padding-bottom: 32px;
   }
 
   .c-mini__rightttl > a {
@@ -182,10 +182,6 @@
     margin: 0 auto;
   }
 
-  .p-lost {
-    padding-bottom: 16px;
-  }
-
   .p-lost__arrow {
     width: 12px;
     height: 12px;
@@ -193,7 +189,7 @@
   }
 
   .p-lost > li {
-    margin-top: 16px;
+    margin-top: 32px;
   }
 
   .p-lost__link {
@@ -208,7 +204,7 @@
 
   .p-footer__copyright {
     text-align: center;
-    margin-top: 24px;
+    margin-top: 32px;
   }
 
   .p-footer__area {
@@ -241,7 +237,8 @@
   .p-twitter__container > h1 {
     color: #fff;
     font-size: small;
-    padding-left: 8px;
+    padding-left: 4px;
+    height: 16px;
   }
 
   .p-twitter__container {
@@ -266,7 +263,9 @@
   .p-facebook__container > h1 {
     color: #fff;
     font-size: small;
-    padding-left: 8px;
+    padding-left: 4px;
+    height: 16px;
+    line-height: 18px;
   }
 
   .p-facebook__container {
@@ -347,7 +346,7 @@
   }
 
   .l-main {
-     margin-top: 8px;
+     margin-top: 32px;
   }
 
   .p-hero__warn {
@@ -361,7 +360,7 @@
   .p-hero__sp {
     display: flex;
     justify-content: space-around;
-    margin: 16px 0px;
+    margin: 32px 0px;
   }
 
   .p-hero__board {
@@ -385,7 +384,7 @@
     background-color: rgb(72, 210, 252);
     height: 70px;
     border-radius: 10px;
-    margin: 0px 8px 8px 8px;
+    margin: 0px 8px 32px 8px;
     display: flex;
     justify-content: space-around;
   }
@@ -445,6 +444,7 @@
 
   .p-sns__sparea {
     text-align: center;
+    margin: 32px 0px;
   }
 
   .p-main__sns {
@@ -459,6 +459,22 @@
 
   .p-facebook__container {
     width: 100px;
+  }
+
+  .p-lost:not(:last-of-type) {
+    padding-bottom: 32px;
+  }
+
+  .p-twitter__follow {
+    white-space: nowrap;
+  }
+
+  .p-facebook__good {
+    white-space: nowrap;
+  }
+
+  .p-twitter__container > h1 {
+    line-height: 18px;
   }
 
 }
@@ -503,7 +519,7 @@
   }
 
   .l-main {
-    margin-top: 24px;
+    margin-top: 32px;
     padding: 0 250px;
   }
 
@@ -516,7 +532,7 @@
   }
 
   .p-hero__main {
-    margin-top: 24px;
+    margin-top: 32px;
   }
 
   /* category1のタイトル装飾 */
@@ -524,7 +540,7 @@
     background-color: rgb(72, 210, 252);
     height: 70px;
     border-radius: 10px;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
   }
 
   .c-main__ttl > h1 {
@@ -541,7 +557,7 @@
   }
 
   .l-main__bottom {
-    margin-top: 16px;
+    margin-top: 32px;
     display: flex;
   }
 
@@ -575,7 +591,7 @@
   }
 
   #p-minittl {
-    margin-bottom: 16px;
+    margin-bottom: 32px;
   }
 
   .c-mini__container:hover {
@@ -586,7 +602,7 @@
     display: flex;
     justify-content: center;
     border-bottom: 1px dashed #C0C0C0;
-    padding-bottom: 16px;
+    padding-bottom: 32px;
   }
 
   .p-main__twitter {
@@ -645,6 +661,18 @@
 
   .p-facebook__container {
     width: 150px;
+  }
+
+  .p-lost {
+    padding-bottom: 32px;
+  }
+
+  .p-twitter__follow {
+    padding-bottom: 32px;
+  }
+
+  .p-twitter__container > h1 {
+    line-height: 33px;
   }
 /*  */
 }
